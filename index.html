@@ -2,240 +2,334 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MoveX E-Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveX E-Commerce - Motorcycle Gear</title>
 </head>
 <body id="top">
 
+    <!-- ==================== HEADER ==================== -->
     <header id="home">
-        <img src="CAinb.jpg" alt="MoveX Brand Logo"
-            width="250" height="250">
+        <h1>MoveX E-Commerce</h1>
+        <p>Motorcycle Gear • Official Store</p>
 
-        <h1>MOVEX</h1>
-
-        <nav>
-            <a href="#home">Home</a> |
-            <a href="#shop">Shop</a> |
-            <a href="#details">Details</a> |
-            <a href="#cart">Cart</a> |
-            <a href="#checkout">Checkout</a> |
-            <a href="#confirm">Confirm</a> |
-            <a href="#login">Login</a> |
-            <a href="#reach">Reach Us</a>
-        </nav>
-
-        <form action="#shop" method="get">
-            <input type="text" name="search"
-                placeholder="Search accessories...">
+        <!-- Search Form -->
+        <form action="#" method="get">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search MoveX gear...">
             <button type="submit">Search</button>
         </form>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#helmets">Helmets</a> |
+            <a href="#accessories">Accessories</a> |
+            <a href="#safety">Safety Gear</a> |
+            <a href="#cart">Cart</a> |
+            <a href="#checkout">Checkout</a>
+        </nav>
         <hr>
     </header>
 
     <main>
-        <section>
-            <h2>MoveX Motorcycle Gear</h2>
 
-            <img src="SvOcC.jpg"
-                alt="MoveX hero banner" width="350" height="300">
-
-            <p>Gear up for every ride.</p>
-            <a href="#shop">Shop All Gear</a>
+        <!-- ==================== HERO ==================== -->
+        <section id="hero">
+            <h2>Ride the Future with MoveX</h2>
+            <p>Premium motorcycle gear engineered for performance, safety, and style.</p>
+            <a href="#helmets"><button type="button">Shop Now</button></a>
+            <hr>
         </section>
 
-        <hr>
+        <!-- ==================== HELMETS ==================== -->
+        <section id="helmets">
+            <h2>Helmets</h2>
 
-        <section id="shop">
-            <h2>Popular Categories</h2>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="Hpglb.jpg" alt="Aero Helmet v2" width="120" height="80">
+                        <h3>Aero Helmet v2</h3>
+                        <p>Lightweight aerodynamic shell with advanced ventilation and anti-fog visor.</p>
+                        <p><strong>Price: ₱4,500.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="uuVgV.jpg" alt="MoveX Sport Helmet" width="120" height="80">
+                        <h3>MoveX Sport Helmet</h3>
+                        <p>Full-face helmet with dual-density EPS liner and quick-release chin strap.</p>
+                        <p><strong>Price: ₱3,800.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="IQ3Fm.jpg" alt="Open-Face Classic" width="120" height="80">
+                        <h3>Open-Face Classic</h3>
+                        <p>Comfortable open-face design with UV-protected visor.</p>
+                        <p><strong>Price: ₱2,900.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
 
-            <ul>
-                <li><a href="#helmet">Helmets</a></li>
-                <li><a href="#mount">Phone Mounts</a></li>
-                <li><a href="#bag">Storage</a></li>
-                <li><a href="#vest">Safety Gear</a></li>
-            </ul>
+            <h3>Featured Photos</h3>
 
-            <h2>Featured Products</h2>
+            <figure>
+                <img src="Hpglb.jpg" alt="MoveX Aero Helmet v2" width="300" height="200">
+                <figcaption><strong>Aero Helmet v2</strong> – Lightweight and aerodynamic</figcaption>
+            </figure>
 
-            <h3 id="helmet">Aero Helmet v2</h3>
-            <img src="Nxg0G.jpg"
-                alt="Black motorcycle helmet" width="250" height="200">
-            <p>Price: ₱4,500.00</p>
-            <p>Rating: ★★★★★ (5.0/5)</p>
-            <button type="button">Quick Add</button>
-            <p><a href="#details">View Details</a></p>
+            <figure>
+                <img src="uuVgV.jpg" alt="MoveX Sport Helmet" width="300" height="200">
+                <figcaption><strong>Sport Helmet</strong> – Full protection for daily rides</figcaption>
+            </figure>
 
+            <figure>
+                <img src="IQ3Fm.jpg" alt="Open-Face Classic Helmet" width="300" height="200">
+                <figcaption><strong>Open-Face Classic</strong> – Comfort and style combined</figcaption>
+            </figure>
+
+            <small>Note: Placeholder images can be replaced with real product photos.</small>
             <hr>
-
-            <h3 id="bag">Tail Bag</h3>
-            <img src="fk7mp.jpg"
-                alt="Motorcycle tail bag" width="250" height="200">
-            <p>Price: ₱2,200.00</p>
-            <p>Rating: ★★★★☆ (4.0/5)</p>
-            <button type="button">Quick Add</button>
-            <p><a href="#details">View Details</a></p>
-
-            <hr>
-
-            <h3 id="mount">Phone Mount</h3>
-            <img src="wGQUT.jpg"
-                alt="Motorcycle phone mount" width="250" height="200">
-            <p>Price: ₱850.00</p>
-            <p>Rating: ★★★★★ (5.0/5)</p>
-            <button type="button">Quick Add</button>
-            <p><a href="#details">View Details</a></p>
-
-            <hr>
-
-            <h3 id="vest">Safety Vest</h3>
-            <img src="TYBoN.jpg"
-                alt="Reflective motorcycle safety vest"
-                width="250" height="200">
-            <p>Price: ₱1,200.00</p>
-            <p>Rating: ★★★★☆ (4.0/5)</p>
-            <button type="button">Quick Add</button>
-            <p><a href="#details">View Details</a></p>
         </section>
 
-        <hr>
+        <!-- ==================== ACCESSORIES ==================== -->
+        <section id="accessories">
+            <h2>Accessories</h2>
 
-        <section id="details">
-            <h2>Product Details</h2>
-
-            <img src="QERem.jpg"
-                alt="Aero Helmet v2 product image"
-                width="400" height="300">
-
-            <h3>Aero Helmet v2</h3>
-            <p>Price: ₱4,500.00</p>
-            <p>Rating: ★★★★★ (5.0/5)</p>
-            <p>Motorcycle helmet for everyday riding.</p>
-
-            <label for="quantity">Quantity:</label>
-            <input type="number" id="quantity" value="1" min="1">
-
-            <p><button type="button">Add to Cart</button></p>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="wGQUT.jpg" alt="Phone Mount" width="120" height="80">
+                        <h3>Phone Mount</h3>
+                        <p>Sturdy handlebar mount with adjustable arm and secure clamp.</p>
+                        <p><strong>Price: ₱850.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="fk7mp.jpg" alt="Tail Bag" width="120" height="80">
+                        <h3>Tail Bag</h3>
+                        <p>Waterproof rear storage bag with quick-release straps.</p>
+                        <p><strong>Price: ₱2,200.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="0uAC3.jpg" alt="Riding Gloves" width="120" height="80">
+                        <h3>Riding Gloves</h3>
+                        <p>Touchscreen-compatible gloves with knuckle protection.</p>
+                        <p><strong>Price: ₱1,150.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
         </section>
 
-        <hr>
+        <!-- ==================== SAFETY GEAR ==================== -->
+        <section id="safety">
+            <h2>Safety Gear</h2>
 
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="TYBoN.jpg" alt="Safety Vest" width="120" height="80">
+                        <h3>Safety Vest</h3>
+                        <p>High-visibility reflective vest with mesh panels.</p>
+                        <p><strong>Price: ₱1,200.00</strong></p>
+                        <label for="vest-size">Size:</label>
+                        <select id="vest-size" name="vest-size">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="acPvK.jpg" alt="Riding Jacket" width="120" height="80">
+                        <h3>Riding Jacket</h3>
+                        <p>Protective jacket with CE-rated armor.</p>
+                        <p><strong>Price: ₱3,500.00</strong></p>
+                        <label for="jacket-size">Size:</label>
+                        <select id="jacket-size" name="jacket-size">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                        <br><br>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="4sSAS.jpg" alt="Riding Boots" width="120" height="80">
+                        <h3>Riding Boots</h3>
+                        <p>Ankle-support boots with oil-resistant sole.</p>
+                        <p><strong>Price: ₱2,800.00</strong></p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+
+        <!-- ==================== CART ==================== -->
         <section id="cart">
-            <h2>Shopping Cart</h2>
-            <p>Aero Helmet v2 - ₱4,500.00</p>
-            <p>Quantity: 1</p>
-            <p>Total: ₱4,500.00</p>
-            <a href="#checkout">Proceed to Checkout</a>
+            <h2>Your Cart</h2>
+
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aero Helmet v2</td>
+                        <td>₱4,500.00</td>
+                        <td><input type="number" min="1" max="20" value="1"></td>
+                        <td>₱4,500.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Mount</td>
+                        <td>₱850.00</td>
+                        <td><input type="number" min="1" max="20" value="1"></td>
+                        <td>₱850.00</td>
+                        <td><button type="button">Remove</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Total</strong></td>
+                        <td colspan="2"><strong>₱5,350.00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <br>
+            <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+            <hr>
         </section>
 
-        <hr>
-
+        <!-- ==================== CHECKOUT ==================== -->
         <section id="checkout">
             <h2>Checkout</h2>
 
-            <form action="#confirm" method="get">
-                <p>
-                    <label for="name">Full Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </p>
-
-                <p>
-                    <label for="address">Delivery Address:</label>
-                    <textarea id="address" name="address" required></textarea>
-                </p>
-
-                <p>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </p>
-
-                <p>
-                    <label for="payment">Payment Method:</label>
-                    <select id="payment" name="payment">
-                        <option>Cash on Delivery</option>
-                        <option>GCash</option>
-                        <option>Credit or Debit Card</option>
-                    </select>
-                </p>
-
-                <button type="submit">Place Order</button>
-            </form>
-        </section>
-
-        <hr>
-
-        <section id="confirm">
-            <h2>Order Confirmation</h2>
-            <p>Thank you for shopping with MoveX!</p>
-            <p>Your order confirmation will appear here.</p>
-            <a href="#home">Continue Shopping</a>
-        </section>
-
-        <hr>
-
-        <section id="login">
-            <h2>Login</h2>
-
             <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+
+                    <p>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+63 912 345 6789">
+                    </p>
+                    <p>
+                        <label for="address">Address:</label><br>
+                        <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+                    </p>
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" list="cities">
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="La Trinidad">
+                            <option value="Manila">
+                            <option value="Quezon City">
+                        </datalist>
+                    </p>
+                    <p>
+                        <label for="delivery-date">Delivery Date:</label>
+                        <input type="date" id="delivery-date" name="delivery-date">
+                    </p>
+                    <p>
+                        <label for="delivery-option">Delivery Option:</label>
+                        <select id="delivery-option" name="delivery-option">
+                            <option value="standard">Standard</option>
+                            <option value="express">Express</option>
+                            <option value="pickup">Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+                    <p>
+                        <input type="radio" id="card" name="payment" value="card" checked>
+                        <label for="card">Credit / Debit Card</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="cod" name="payment" value="cod">
+                        <label for="cod">Cash on Delivery</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="ewallet" name="payment" value="ewallet">
+                        <label for="ewallet">E-Wallet (GCash / Maya)</label>
+                    </p>
+                </fieldset>
+
+                <br>
+
                 <p>
-                    <label for="loginemail">Email:</label>
-                    <input type="email" id="loginemail"
-                        name="loginemail" required>
+                    <input type="checkbox" id="gift" name="extras" value="gift">
+                    <label for="gift">Gift wrap</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="receipt" name="extras" value="receipt">
+                    <label for="receipt">Include receipt</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#terms-info">Terms &amp; Conditions</a></label>
                 </p>
 
                 <p>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password"
-                        name="password" required>
+                    <button type="submit">Place Order</button>
+                    <button type="reset">Clear</button>
                 </p>
-
-                <button type="submit">Login</button>
             </form>
+            <hr>
         </section>
 
-        <hr>
-
-        <section id="reach">
-            <h2>Reach Us</h2>
-            <p>Have questions about our motorcycle gear? Contact us!</p>
-
-            <p>Email: <a href="mailto:support@movex.com">
-                support@movex.com</a></p>
-
-            <p>Phone: <a href="tel:+639123456789">
-                +63 912 345 6789</a></p>
-
-            <h3>Send Us a Message</h3>
-
-            <form action="mailto:support@movex.com" method="post"
-                enctype="text/plain">
-                <p>
-                    <label for="contactname">Your Name:</label>
-                    <input type="text" id="contactname"
-                        name="name" required>
-                </p>
-
-                <p>
-                    <label for="contactemail">Your Email:</label>
-                    <input type="email" id="contactemail"
-                        name="email" required>
-                </p>
-
-                <p>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message"
-                        required></textarea>
-                </p>
-
-                <button type="submit">Send Message</button>
-            </form>
+        <!-- ==================== TERMS ==================== -->
+        <section id="terms-info">
+            <h2>Terms &amp; Conditions</h2>
+            <details>
+                <summary>Read the terms</summary>
+                <ol>
+                    <li>Returns are accepted within 7 days of delivery if the item is unused and in original packaging.</li>
+                    <li>Standard delivery takes 3–5 business days. Express delivery is available for an extra fee.</li>
+                    <li>All payments are processed securely. Cash on Delivery is available for orders within Baguio City.</li>
+                </ol>
+            </details>
+            <hr>
         </section>
+
     </main>
 
+    <!-- ==================== FOOTER ==================== -->
     <footer>
         <hr>
-        <img src="CAinb.jpg" alt="MoveX Logo" width="340" height="240">
-        <h3>MOVEX</h3>
+        <p>
+            <a href="#contact">About Us</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#terms-info">Shipping Policy</a> |
+            <a href="#terms-info">Returns</a>
+        </p>
         <p>&copy; 2026 MoveX E-Commerce. Built for IT Project. Ayan ken</p>
-        <a href="#top">Back to Top</a>
     </footer>
 
 </body>
